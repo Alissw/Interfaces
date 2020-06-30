@@ -25,12 +25,12 @@ namespace Interfaces
     }
      public class Formulario : Form {
           
-        // Label lbCadastro;
+        Label lbCadastro;
         Label lbLogin;
-        // Button btnCadastraAutonomo;
-        // Button btnCadastraMEI;
-        Button btnEntrarMEI;
-        Button btnEntrarAutonomo;
+        Button btnCadastraAutonomo;
+        Button btnCadastraMEI;
+        // Button btnEntrarMEI;
+        // Button btnEntrarAutonomo;
         // Button btVoltar;
         Button btSair;
 
@@ -39,45 +39,45 @@ namespace Interfaces
             this.Text = "WorkNow";
             this.Size = new Size(270, 370);
 
-            // lbCadastro = new Label();
-            // lbCadastro.Text = "Ainda não possui conta?";
-            // lbCadastro.Location = new Point(95,5);
-            // this.Controls.Add(lbCadastro);
+            lbCadastro = new Label();
+            lbCadastro.Text = "Ainda não possui conta?";
+            lbCadastro.Location = new Point(95,5);
+            this.Controls.Add(lbCadastro);
 
-            lbLogin = new Label();
-            lbLogin.Text = "Já possui conta? Entre agora";
-            lbLogin.Location = new Point(95,5);
-            this.Controls.Add(lbLogin);
+            // lbLogin = new Label();
+            // lbLogin.Text = "Já possui conta? Entre agora";
+            // lbLogin.Location = new Point(95,5);
+            // this.Controls.Add(lbLogin);
 
-            // btnCadastraAutonomo = new Button();
-            // btnCadastraAutonomo.Text = "Autonômo";
-            // btnCadastraAutonomo.Location = new Point(95, 45);
-            // btnCadastraAutonomo.Size = new Size (100,20);
+            btnCadastraAutonomo = new Button();
+            btnCadastraAutonomo.Text = "Autonômo";
+            btnCadastraAutonomo.Location = new Point(95, 45);
+            btnCadastraAutonomo.Size = new Size (100,20);
             // btnCadastraAutonomo.Click += new EventHandler (btnCadastraAutonomoClick);
-            // this.Controls.Add(btnCadastraAutonomo);
+            this.Controls.Add(btnCadastraAutonomo);
 
-            // btnCadastraMEI = new Button();
-            // btnCadastraMEI.Text = "Autonomo MEI";
-            // btnCadastraMEI.Location = new Point(95, 65);
-            // btnCadastraMEI.Size = new Size (100,20);
+            btnCadastraMEI = new Button();
+            btnCadastraMEI.Text = "Autonomo MEI";
+            btnCadastraMEI.Location = new Point(95, 65);
+            btnCadastraMEI.Size = new Size (100,20);
             // btnCadastraMEI.Click += new EventHandler (btnCadastraMEIClick);
-            // this.Controls.Add(btnCadastraMEI);
+            this.Controls.Add(btnCadastraMEI);
 
-            btnEntrarMEI = new Button();
-            btnEntrarMEI.Text = "Entrar como Empreendedor MEI";
-            btnEntrarMEI.Location = new Point(95, 45);
-            btnEntrarMEI.Size = new Size (100,20);
-            this.btnEntrarMEI.BackColor = ColorTranslator.FromHtml("#00c2cb");
-            // btnEntrarMEI.Click += new EventHandler (btnEntrarMEIClick);
-            this.Controls.Add(btnEntrarMEI);
+            // btnEntrarMEI = new Button();
+            // btnEntrarMEI.Text = "Entrar como Empreendedor MEI";
+            // btnEntrarMEI.Location = new Point(95, 45);
+            // btnEntrarMEI.Size = new Size (100,20);
+            // this.btnEntrarMEI.BackColor = ColorTranslator.FromHtml("#00c2cb");
+            // // btnEntrarMEI.Click += new EventHandler (btnEntrarMEIClick);
+            // this.Controls.Add(btnEntrarMEI);
 
-            btnEntrarAutonomo = new Button();
-            btnEntrarAutonomo.Text = "Entrar como Autonômo";
-            btnEntrarAutonomo.Location = new Point(95, 45);
-            btnEntrarAutonomo.Size = new Size (100,20);
-            this.btnEntrarAutonomo.BackColor = ColorTranslator.FromHtml("#00c2cb");
-            // btnEntrarAutonomo.Click += new EventHandler (btnEntrarAutonomoClick);
-            this.Controls.Add(btnEntrarAutonomo);
+            // btnEntrarAutonomo = new Button();
+            // btnEntrarAutonomo.Text = "Entrar como Autonômo";
+            // btnEntrarAutonomo.Location = new Point(95, 45);
+            // btnEntrarAutonomo.Size = new Size (100,20);
+            // this.btnEntrarAutonomo.BackColor = ColorTranslator.FromHtml("#00c2cb");
+            // // btnEntrarAutonomo.Click += new EventHandler (btnEntrarAutonomoClick);
+            // this.Controls.Add(btnEntrarAutonomo);
 
             // btVoltar = new Button();
             // btVoltar.Text = "Voltar";
